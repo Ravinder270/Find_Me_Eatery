@@ -62,12 +62,5 @@ public class Travel extends AppCompatActivity {
         });
     }
 
-    public void openTravelDistance() {
-        Intent intent = new Intent(this, TravelDistance.class);
-        Bundle extras = new Bundle();
-        extras.putStringArrayList("chosenFoods",  chosen);
-        extras.putInt("radius",  radius);
-        intent.putExtras(extras);
-        startActivity(intent);
-    }
+    
 }
