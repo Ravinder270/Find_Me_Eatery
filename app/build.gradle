@@ -2,8 +2,9 @@ plugins {
     id 'com.android.application'
     id 'com.google.android.libraries.mapsplatform.secrets-gradle-plugin'
 }
-
 android {
+
+
     namespace 'com.example.findmeeatery'
     compileSdk 33
 
@@ -30,6 +31,7 @@ android {
     buildFeatures {
         viewBinding true
     }
+
 }
 
 

@@ -48,7 +48,7 @@ public class FoodType extends AppCompatActivity {
         context = getApplicationContext();
         gridLayout = (GridLayout) findViewById(R.id.food_type_grid);
 
-        String choices[] = new String[]{"burrito", "mexican", "pizza", "sushi", "pasta", "indian", "salads", "Chinese"};
+        String choices[] = new String[]{"Dosa", "Idli", "Pizza", "Biryani", "Pasta", "Appam", "Salad", "Chinese"};
         int[] ids = new int[]{0, 1, 2, 3, 4, 5, 6, 7};
         cardviews = new CardView[choices.length];
         CreateFoodChoices(choices);
